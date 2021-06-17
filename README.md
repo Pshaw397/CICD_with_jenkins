@@ -1,2 +1,2 @@
 # CICD_with_jenkins
-[diagram](diagram.png)
+![diagram](diagram.png)
