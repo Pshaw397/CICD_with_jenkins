@@ -17,3 +17,14 @@ npm install
 npm test
 ```
 Save the jenkins job and run the build.
+
+
+## Webhooks
+To set up a webhook:
+1. open your repo of choice and click on the `Settings` tab.
+2. Next, click on the `Webhooks` tab 
+3. Click `add webhook`
+4. Enter into the first input box: `[Jenkins URL]/github-weekhook/`
+5. Change to content type to: `application/json`
+6. Press `Save Webhook`
+Now, when you make a commit to that repo your tests connected to that repo will be run
